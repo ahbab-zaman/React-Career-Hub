@@ -1,3 +1,6 @@
+import Category from "../Category/Category";
+import Jobs from "../Jobs/Jobs";
+
 const Statistics = () => {
   return (
     <div>
@@ -21,6 +24,10 @@ const Statistics = () => {
           </div>
         </div>
       </div>
+      <Category></Category>
+
+      <Jobs></Jobs>
+
     </div>
   );
 };
