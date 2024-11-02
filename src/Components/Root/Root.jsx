@@ -4,10 +4,10 @@ import Footer from "../Footer/Footer";
 const Root = () => {
     return (
         <div>
-           <div>
            <NavBar></NavBar>
-           </div>
+            <div className="min-h-[calc(100vh-288px)]">
             <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );
