@@ -1,8 +1,6 @@
 import { IoLocationOutline } from 'react-icons/io5';
 import { LuCircleDollarSign } from "react-icons/lu";
 
-
-
 const Job = ({ job }) => {
   const {
     logo,
